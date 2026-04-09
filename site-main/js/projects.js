@@ -3,78 +3,57 @@
 export const projectsPageData = {
   hero: {
     backLinkHref: 'index.html',
-    backLinkLabel: 'Back to CV',
-    title: 'Selected Projects',
-    subtitle: 'AI, Machine Learning & Data Engineering'
+    backLinkLabel: 'Retour au CV',
+    title: 'Ressources pédagogiques',
+    subtitle: 'Supports de cours et exercices de mathématiques'
   },
   projects: [
     {
-      title: 'Metro Affluence Prediction',
-      description: 'Machine learning model predicting neighborhood affluence using transit data, demographic features, and geospatial analysis.',
-      tags: ['Random Forest', 'XGBoost', 'Feature Engineering'],
+      title: 'Seconde',
+      description: 'Fiches de synthèse, exercices progressifs et méthodes de résolution pour consolider les bases.',
+      tags: ['Fonctions', 'Géométrie', 'Statistiques'],
       image: '',
-      ctaLabel: 'View Project'
+      ctaLabel: 'Voir la ressource'
     },
     {
-      title: 'CV Parsing API',
-      description: 'LLM-powered API that extracts structured JSON from resumes with 95% accuracy using GPT-4 and custom prompt engineering.',
-      tags: ['LLM', 'OpenAI', 'FastAPI'],
+      title: 'Première',
+      description: 'Ressources ciblées pour la spécialité mathématiques : approfondissement des notions et entraînement.',
+      tags: ['Dérivation', 'Probabilités', 'Suites'],
       image: '',
-      ctaLabel: 'View Project'
+      ctaLabel: 'Voir la ressource'
     },
     {
-      title: 'Reinforcement Learning Pacman',
-      description: 'Implemented Q-learning and Deep Q-Networks for autonomous Pacman agent achieving superhuman performance.',
-      tags: ['Deep RL', 'PyTorch', 'Q-Learning'],
+      title: 'Terminale',
+      description: 'Supports de révision et sujets guidés pour préparer efficacement les évaluations finales.',
+      tags: ['Intégration', 'Matrices', 'Algorithmes'],
       image: '',
-      ctaLabel: 'View Project'
-    },
-    {
-      title: 'Climate Data PCA Compression',
-      description: 'Dimensionality reduction pipeline compressing global climate datasets by 80% while preserving 95% variance.',
-      tags: ['PCA', 'NumPy', 'Data Compression'],
-      image: '',
-      ctaLabel: 'View Project'
-    },
-    {
-      title: 'AI Marketing Bot',
-      description: 'Conversational AI chatbot for lead generation using NLP, sentiment analysis, and personalized response generation.',
-      tags: ['NLP', 'BERT', 'Transformer'],
-      image: '',
-      ctaLabel: 'View Project'
-    },
-    {
-      title: 'Java Strategy Game',
-      description: 'Turn-based strategy game with AI opponents using minimax algorithm and alpha-beta pruning for decision making.',
-      tags: ['Java', 'Game Theory', 'Minimax'],
-      image: '',
-      ctaLabel: 'View Project'
+      ctaLabel: 'Voir la ressource'
     }
   ],
   featured: {
-    sectionTitle: 'Featured Project',
+    sectionTitle: 'Ressource mise en avant',
     number: '01',
-    title: 'Real-Time Fraud Detection System',
-    description: 'Enterprise-grade fraud detection system processing millions of transactions daily using ensemble methods and anomaly detection.',
+    title: 'Parcours de révision complet',
+    description: 'Un programme structuré pour réviser les chapitres essentiels avec méthode et régularité.',
     longDescription:
-      'The system combines supervised learning (Gradient Boosting, Neural Networks) with unsupervised techniques (Isolation Forest, One-Class SVM) to identify fraudulent patterns in real-time. Deployed on AWS with auto-scaling, maintaining 99.9% uptime while adapting to evolving fraud patterns through continuous learning.',
+      'Cette ressource propose une progression hebdomadaire avec rappels de cours, exercices corrigés et auto-évaluations. Elle aide les élèves à identifier leurs points faibles, à s\'entraîner de manière autonome et à gagner en confiance avant les devoirs surveillés et examens.',
     metrics: [
-      { value: '98.7%', label: 'Accuracy' },
-      { value: '0.3%', label: 'False Positive' },
-      { value: '< 50ms', label: 'Processing' },
-      { value: '5M+/day', label: 'Transactions' }
+      { value: '3', label: 'Niveaux' },
+      { value: '40+', label: 'Fiches' },
+      { value: '120+', label: 'Exercices' },
+      { value: '100%', label: 'Corrigés' }
     ],
-    techStackLabel: 'Tech Stack',
-    techTags: ['Deep Learning', 'AWS', 'Kafka', 'Docker', 'PostgreSQL'],
-    ctaLabel: 'Read Case Study'
+    techStackLabel: 'Thématiques',
+    techTags: ['Algèbre', 'Analyse', 'Probabilités', 'Géométrie', 'Méthodologie'],
+    ctaLabel: 'Lire le détail'
   },
   cta: {
-    title: "Let's build intelligent systems.",
-    description: "I'm always interested in collaborating on challenging data science problems and innovative AI projects.",
-    buttonLabel: 'Contact Me',
-    buttonHref: 'mailto:contact@example.com'
+    title: 'Restons en contact.',
+    description: 'Téléphone : 07 81 11 43 94 · Email : adamhannachi8@gmail.com',
+    buttonLabel: 'Contacter',
+    buttonHref: 'mailto:adamhannachi8@gmail.com'
   },
   footer: {
-    copyright: '© 2026 Alexander Chen. All rights reserved.'
+    copyright: '© 2026 Adam Hannachi. Tous droits réservés.'
   }
 };
